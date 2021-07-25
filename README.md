@@ -1,12 +1,12 @@
 
 Files
-	Main.py – Web app file
-	gnn_nodeclassification.py  – Model file
-	requirements.txt  – Package Installation requirements
-	Dockerfile  – file required for docker 
-	Cora folder – dataset 
-	docker-compose.yml  – Docker compose config file
-	Model.pkl – Trained Model pickle file
+	Main.py – Web app file		
+	gnn_nodeclassification.py  – Model file		
+	requirements.txt  – Package Installation requirements		
+	Dockerfile  – file required for docker 		
+	Cora folder – dataset 		
+	docker-compose.yml  – Docker compose config file		
+	Model.pkl – Trained Model pickle file		
 
 
 Steps to recreate: 
