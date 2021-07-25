@@ -23,6 +23,7 @@ Steps to recreate:
 a.	Download the code from code.zip file attached, or code is also uploaded on Github (link) along with dataset  
 
 		
+		
 2.	Installing the required packages from requirement.py file and few packages are only available on URL as mentioned below:  
 
 a.	pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html  
@@ -30,6 +31,7 @@ a.	pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu
 b.	pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html  
 
 c.	cu102 will change according to cuda version installed on your machine.  
+
 
 
 3.	Running the code on local server.  
@@ -43,6 +45,7 @@ c.	Run  main.py file.
 d.	Open the URL (http://localhost:8080/docs) and give input between 0-2708 to get the desired output stating category of the paper whose ID was provided.   
 
 
+
 4.	Creating Docker image on local machine and pushing the image on docker hub.  
 
 a.	docker login with your credentials.  
@@ -52,6 +55,7 @@ b.	Create repository
 c.	docker build -t dockerfor2021(docker hub name)/ graphneuralnetworks (repository name):latest .  
 
 d.	docker push dockerfor2021(docker hub name)//graphneuralnetworks (repository name):latest  
+
 
 
 5.	Azure cloud deployment  
