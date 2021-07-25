@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+    gnn-predict:
+        image: dockerfor2021/graphneuralnetworks:latest
+        container_name: gnn-predict
+        hostname: gnn-predict
+        ports:
+            - "80:8080"
